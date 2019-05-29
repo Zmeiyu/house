@@ -1,0 +1,58 @@
+.bg{
+    width: 100%;
+}
+.bg .img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg .icon{
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+}
+.bg .icon img{
+    width: 0.23rem;
+    height: 0.29rem;
+    margin-left: 0.2rem;
+}
+.bg .user img{
+    width: .53rem;
+    height: .53rem;
+}
+.bg .user{
+    position: absolute;
+    left: 1.33rem;
+    top: .58rem;
+    text-align: center;
+}
+.bg p{
+    margin-top: .1rem;
+    padding: .04rem .17rem;
+    color: white;
+    border: 1px solid white;
+    font-size: .12rem;
+}
+.userList{
+    margin-top: .12rem;
+    background: white;
+    padding: 0 .2rem;
+}
+.userList li{
+    height: .48rem;
+    line-height: .48rem;
+    border-bottom: 1px solid #dcdcdc;
+    background: url("./../image/public/right.png") right center no-repeat;
+    background-size: .07rem .14rem;
+}
+.userList img{
+    width: .16rem;
+    height: .16rem;
+}
+.rentalAddr{
+    height: .36rem;
+    line-height: .36rem;
+    background: white;
+    border-bottom: 1px solid #c5c5c5;
+    padding-left: .15rem;
+}

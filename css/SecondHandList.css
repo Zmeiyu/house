@@ -1,0 +1,278 @@
+.secondSearch{
+    width: 2.9rem;
+    margin: .1rem auto;
+    position: relative;
+}
+.secondSearch input{
+    width: 2.9rem;
+    height: .41rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: .1rem;
+    font-size: .12rem;
+}
+.secondSearch span{
+    position: absolute;
+    top: .12rem;
+    right: .5rem;
+}
+.secondSearch a{
+    position: absolute;
+    top: .12rem;
+    right: .18rem;
+}
+.secondSearch a img{
+    width: .18rem;
+    height: .2rem;
+}
+.secondList .list{
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    font-size: .12rem;
+    z-index: 4;
+    position: relative;
+    background: white;
+}
+.secondList .list li{
+    position: relative;
+}
+.secondList .list h2 a{
+    position: relative;
+}
+.secondList .list h2 span{
+    border-top: 5px solid #ccc;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: absolute;
+    top: .06rem;
+    right: -.14rem;
+}
+.secondList .list h2 .active span{
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #ff8a00;
+    border-left: 5px solid transparent;
+    top: 0.02rem;
+}
+.secondList .list h2 .active{
+    color: #ff8a00;
+}
+.hide{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+.someList{
+    width: 100%;
+    position: fixed;
+    top: .4rem;
+    left: 0;
+    z-index: 10;
+}
+.area{
+    display: flex;
+    background: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    font-size: .12rem;
+    display: none;
+}
+.area .title{
+    flex: 1;
+    background: #f0f0f0;
+    border-right: 1px solid #ccc;
+    font-size: .12rem;
+    text-align: center;
+}
+.area .title h2{
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+}
+.area .title .active{
+    color: #ff8a00;
+    background:white;
+    margin-left: -.1rem;
+    border-right: 2px solid white;
+}
+.area .hideList{
+    flex: 3;
+}
+.area .hideList ul li{
+    float: left;
+    width: 45%;
+    height: .4rem;
+    line-height: .4rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.area .hideList ul li .active{
+    color: #ff8a00;
+}
+.price{
+    background: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    font-size: .12rem;
+    display: none;
+}
+.price li{
+    height: .4rem;
+    line-height: .4rem;
+    border-bottom: 1px solid #ccc;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+.price li:last-of-type{
+    border-bottom: none;
+}
+.house{
+    background: white;
+    padding-bottom: .2rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    font-size: .12rem;
+    display: none;
+}
+.house li{
+    height: .4rem;
+    line-height: .4rem;
+    border-bottom: 1px solid #ccc;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+.house li:last-of-type{
+    border-bottom: none;
+}
+.house span{
+    width: .14rem;
+    height: .15rem;
+    float: right;
+    margin-top: .12rem;
+    margin-right: .2rem;
+    border: 1px solid #c5c3c3;
+}
+.house span .active{
+    border: 1px solid #ff8a00;
+    background: url("../image/SecondHandList/ok.png") center center no-repeat;
+}
+.house .btnOK{
+    text-align: center;
+    background: #ff8a00;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+}
+.more{
+    background: white;
+    width: 100%;
+    padding: 0 .2rem .2rem;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    font-size: .12rem;
+    display: none;
+}
+.more .childList{
+    padding-bottom: .08rem;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.more .childList li{
+    float: left;
+    width: 22%;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: .05rem;
+    margin-bottom: .12rem;
+    height: .25rem;
+    line-height: .25rem;
+    font-size: .1rem;
+}
+.more .childList li:first-of-type,.more .childList li:nth-of-type(5),.more .childList li:nth-of-type(9){
+    margin-left: 0;
+}
+.more .clear{
+    height: .5rem;
+    line-height: .5rem;
+    text-align: center;
+}
+.more .btnOK{
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+    background: #ff8a00;
+}
+.more .btnOK a{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.secondContent{
+    padding: 0 .2rem;
+    font-size: .12rem;
+}
+.secondContent li{
+    padding: .2rem 0;
+    border-bottom: 1px solid #ff8a00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondContent li:last-of-type{
+    border-bottom: none;
+}
+.secondContent .left img{
+    width: .81rem;
+    height: .81rem;
+}
+.secondContent .right{
+    width: 1.87rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+.secondContent .right h2{
+    font-size: .14rem;
+}
+.secondContent .right p{
+    color: #b0b0b0;
+    line-height: .21rem;
+}
+.secondContent .right p:last-of-type{
+    color: black;
+    margin-top: .1rem;
+}
+.secondContent .right strong{
+    color: #ff8a00;
+}
+
